@@ -1,2 +1,5 @@
-# MLPlanetaryAlbedo
-Evaluation task for the project Machine Learning Model for the Planetary Albedo, in the GSoC
+# Machine Learning Model for the Planetary Albedo
+
+Evaluation task for the project Machine Learning Model for the Planetary Albedo, in the [GSoC](https://summerofcode.withgoogle.com/)
+
+Here the regressive models [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html), [Ridge Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.RidgeCV.html#sklearn.linear_model.RidgeCV), [LASSO](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoCV.html#sklearn.linear_model.LassoCV), [Elastic Net](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNetCV.html), [Random Forest Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#sklearn.ensemble.RandomForestRegressor), [MLP Regressor](https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression) and [XGB Regressor](https://xgboost.readthedocs.io/en/latest/python/python_api.html) are applied (or evaluated) to solve the problem, and capture dependencies. A small engineering of variables is also carried out when working on some statistical variables.
